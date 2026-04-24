@@ -15,4 +15,4 @@ __pycache__/
 # Optional: ignore large files later if needed
 # *.pth
 # data/*
-# outputs/*
+# outputs/*.DS_Store

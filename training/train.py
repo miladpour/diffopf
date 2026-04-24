@@ -28,7 +28,7 @@ def load_data(data_path, params):
 
     df = df.dropna().reset_index(drop=True)
 
-    # 🔥 Drop cost coefficients
+    # 
     n_g = params["n_g"]
     df = df.iloc[:, :-n_g]
 
